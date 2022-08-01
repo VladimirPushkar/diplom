@@ -49,7 +49,7 @@ fieldset { border-width:0; padding:0; margin:0; }
     padding: 50px 10px;
 }
 .nav-btn li a {
-    padding: 20px 20px 20px 40px;
+    padding: 20px;
     font-family: 'Google Sans';
     font-style: normal;
     font-weight: 400;
@@ -70,7 +70,12 @@ fieldset { border-width:0; padding:0; margin:0; }
     color: #FFFFFF;
 }
 .nav-login a {
-    padding-right: 30px;
+    padding: 8px 15px;
+}
+.nav-login a:hover {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 7px 14px;
 }
 .nav-login__lang {
     margin: -15px 15px;
@@ -142,6 +147,10 @@ fieldset { border-width:0; padding:0; margin:0; }
     color: white;
     border-radius: 10px;
 }
+.main-btn__find a:hover {
+    background: #DB6851;
+    box-shadow: 75px 75px 43px rgba(219, 104, 81, 0.03), 42px 42px 36px rgba(219, 104, 81, 0.1), 19px 19px 27px rgba(219, 104, 81, 0.17), 5px 5px 15px rgba(219, 104, 81, 0.2), 0px 0px 0px rgba(219, 104, 81, 0.2);
+}
 .main-btn__play {
     display: flex;
     justify-content: center;
@@ -157,6 +166,10 @@ fieldset { border-width:0; padding:0; margin:0; }
     align-items: center;
     color:#fff; 
     font-size:20px
+}
+.main-btn__play:hover {
+    background: #F2962F;
+    box-shadow: 25px 25px 14px rgba(242, 150, 47, 0.03), 14px 14px 12px rgba(242, 150, 47, 0.1), 6px 6px 9px rgba(242, 150, 47, 0.17), 2px 2px 5px rgba(242, 150, 47, 0.2), 0px 0px 0px rgba(242, 150, 47, 0.2);
 }
 .main-btn__playDemo {
     display: flex;
@@ -645,13 +658,15 @@ fieldset { border-width:0; padding:0; margin:0; }
 .footer-center__text:hover {
     color: #000;
     transition-duration: .9s;
-}
-.footer-right {
-
+    
 }
 .footer-social img {
     margin-right: 26px;
-
+}
+.footer-social img:hover {
+    border-radius: 50%;
+    background: #F2962F;
+    box-shadow: 14px 14px 8px rgba(242, 150, 47, 0.03), 8px 8px 7px rgba(242, 150, 47, 0.1), 4px 4px 5px rgba(242, 150, 47, 0.17), 1px 1px 3px rgba(242, 150, 47, 0.2), 0px 0px 0px rgba(242, 150, 47, 0.2);
 }
 .footer-right__text{
     margin-top: 28px;
@@ -683,4 +698,24 @@ fieldset { border-width:0; padding:0; margin:0; }
     text-align: center;
     margin-top: 84px;
     padding-bottom: 70px;
+}
+@media (max-width: 1250px) {
+    .global-bg {
+        margin: 0 auto;
+    }
+    .nav-login {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .nav-login a {
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 650px) {
+
 }
