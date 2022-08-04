@@ -15,7 +15,7 @@ fieldset { border-width:0; padding:0; margin:0; }
     max-width: 1440px;
     margin: 0 auto;
     padding: 0px 15px;
-    background-image: url(../img/globalbg.jpg);
+    background-image: url(../img/bg-big.jpg);
 }
 .conteiner-bg__nav {
     width: 100%;
