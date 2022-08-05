@@ -841,7 +841,6 @@ fieldset { border-width:0; padding:0; margin:0; }
     }
 }
 @media (max-width: 870px) {
-
     .card-fb-border {
         top: 90px;
     }
@@ -884,5 +883,17 @@ fieldset { border-width:0; padding:0; margin:0; }
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
+    }
+    .card_description {
+        font-size: 13px;
+    }
+    .trip_description {
+        font-size: 15px;
+    }
+}
+@media (max-width: 650px) {
+    .category-items {
+        flex-direction: column;
+        align-items: center;
     }
 }
