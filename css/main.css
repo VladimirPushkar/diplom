@@ -890,10 +890,108 @@ fieldset { border-width:0; padding:0; margin:0; }
     .trip_description {
         font-size: 15px;
     }
+    .category-items__country {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 @media (max-width: 650px) {
     .category-items {
         flex-direction: column;
         align-items: center;
+    }
+}
+@media (max-width: 520px) {
+    .about-content__left--h {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .trip__top {
+        width: 295px;
+        margin: 0 auto;
+    }
+    .trip-comment {
+        left: 0px;
+        top: 80px;
+        width: 235px;
+    }
+    .card-fb__big-text {
+        width: 310px;
+    }
+    .enter_big {
+        width: 260px;
+    }
+    .about-content__left {
+        width: 310px;
+    }
+    .about-content__left--s {
+        width: 245px;
+    }
+    .about-content__left--p {
+        width: 285px;
+    }
+    .nav-btn ul {
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteiner-main__btn {
+
+        margin-top: 77px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 250px;
+    }
+    .category-about h3 {
+        font-size: 40px;
+    }
+    .conteiner-trip {
+        margin: 0 auto;
+    }
+    .trip-about p {
+        text-align: center;
+        width: 275px;
+    }
+    .trip-about h3 {
+        text-align: center;
+        font-size: 15px;
+    }
+    .warp-info {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .trip-img {
+        margin-right: 0px;
+        width: 290px;
+    }
+    .trip-img__top {
+        flex-direction: column;
+    }
+    .feedback__big-text {
+        width: 280px;
+    }
+    .card-feedback {
+        margin-top: 30px;
+    }
+    .card-fb__big-text {
+        width: 220px;
+        font-size: 9px;
+        line-height: 20px;
+    }
+    .subscribe__title {
+        padding: 78px 5px 2px 25px;
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .footer-conteiner {
+        padding: 19px 15px 0px;
+    }
+    .conteiner-logobrend {
+        padding-top: 80px;
+        padding-bottom: 20px;
     }
 }
