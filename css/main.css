@@ -64,6 +64,7 @@
 }
 .nav-login a {
     padding: 8px 15px;
+    color: white;
 }
 .nav-login a:hover {
     border: 1px solid #FFFFFF;
@@ -199,6 +200,9 @@
     opacity: 0.7;
     padding-left: 15px;
 }
+.main-btn__playDemo a {
+    color: white;
+}
 .conteiner-category {
     width: 100%;
     max-width: 1140px;
@@ -239,6 +243,7 @@
     width: 100%;
     max-width: 267px;
     height: 315px;
+    margin: 15px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -969,6 +974,20 @@
         margin-left: 15px;
     }
 }
+@media (max-width: 590px) {
+    .subscribe__title {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .enter_big {
+        margin-left: 20px;
+    }
+    .submit_big {
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+}
 @media (max-width: 520px) {
     .category-items {
         margin-top: 5px;
@@ -997,7 +1016,7 @@
         margin: 0 auto;
     }
     .trip-comment {
-        left: -35px;
+        left: -5px;
         top: 58px;
         width: 235px;
     }
@@ -1047,6 +1066,8 @@
     }
     .conteiner-main__btn {
         margin-top: 77px;
+        margin-left: 135px;
+        margin-bottom: 20px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -1144,5 +1165,24 @@
     .footer-center__text {
         text-shadow: 0px 0px 5px #000;
         opacity: 1;
+    }
+    .category-items__block {
+        max-width: 180px;
+        height: 180px;
+    }
+    .feedback__big-text {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .feedback__top-text {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .fb-img {
+        left: -20px;
+        top: -20px;
+    }
+    .fb-img img{ 
+        width: 40px;
     }
 }
